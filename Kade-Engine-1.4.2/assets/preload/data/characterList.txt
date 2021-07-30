@@ -18,3 +18,4 @@ senpai-angry
 spirit
 oj
 sansoj
+shadow

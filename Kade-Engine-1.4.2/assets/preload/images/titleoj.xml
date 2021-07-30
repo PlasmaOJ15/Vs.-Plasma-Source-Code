@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="titleoj.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ojtitle0000" x="6" y="6" width="700" height="706" frameX="-2" frameY="-15" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0001" x="710" y="6" width="704" height="706" frameX="0" frameY="-15" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0002" x="1418" y="6" width="704" height="703" frameX="0" frameY="-18" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0003" x="2126" y="6" width="700" height="703" frameX="-2" frameY="-18" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0004" x="2830" y="6" width="700" height="709" frameX="-2" frameY="-12" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0005" x="2830" y="6" width="700" height="709" frameX="-2" frameY="-12" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0006" x="6" y="719" width="700" height="711" frameX="-2" frameY="-10" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0007" x="710" y="719" width="700" height="717" frameX="-2" frameY="-4" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0008" x="710" y="719" width="700" height="717" frameX="-2" frameY="-4" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0009" x="710" y="719" width="700" height="717" frameX="-2" frameY="-4" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0010" x="1414" y="719" width="700" height="721" frameX="-2" frameY="0" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0011" x="1414" y="719" width="700" height="721" frameX="-2" frameY="0" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0012" x="1414" y="719" width="700" height="721" frameX="-2" frameY="0" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0013" x="2118" y="719" width="700" height="720" frameX="-2" frameY="-1" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0014" x="2118" y="719" width="700" height="720" frameX="-2" frameY="-1" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0015" x="2822" y="719" width="700" height="709" frameX="-2" frameY="-12" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0016" x="6" y="1444" width="704" height="709" frameX="0" frameY="-12" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0017" x="714" y="1444" width="704" height="700" frameX="0" frameY="-21" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0018" x="1422" y="1444" width="700" height="700" frameX="-2" frameY="-21" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0019" x="2126" y="1444" width="700" height="705" frameX="-2" frameY="-16" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0020" x="2830" y="1444" width="700" height="705" frameX="-2" frameY="-16" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0021" x="6" y="2157" width="700" height="708" frameX="-2" frameY="-13" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0022" x="710" y="2157" width="700" height="718" frameX="-2" frameY="-3" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0023" x="710" y="2157" width="700" height="718" frameX="-2" frameY="-3" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0024" x="710" y="2157" width="700" height="718" frameX="-2" frameY="-3" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0025" x="1414" y="2157" width="700" height="715" frameX="-2" frameY="-6" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0026" x="1414" y="2157" width="700" height="715" frameX="-2" frameY="-6" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0027" x="1414" y="2157" width="700" height="715" frameX="-2" frameY="-6" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0028" x="2118" y="2157" width="700" height="716" frameX="-2" frameY="-5" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="ojtitle0029" x="2118" y="2157" width="700" height="716" frameX="-2" frameY="-5" frameWidth="704" frameHeight="721"/>
+</TextureAtlas>

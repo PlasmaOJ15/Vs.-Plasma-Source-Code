@@ -546,6 +546,30 @@ class Character extends FlxSprite
 				addOffset("no",68,-15);
 
 				playAnim('idle');
+				
+			case 'shadow':
+				frames = Paths.getSparrowAtlas('plasma/shadow_assets');
+				animation.addByPrefix('idle', "idle", 24, false);
+				animation.addByPrefix('singUP', "up", 24, false);
+				animation.addByPrefix('singRIGHT', "right", 24, false);
+				animation.addByPrefix('singLEFT', "left", 24, false);
+				animation.addByPrefix('singDOWN', "down", 24, false);
+				animation.addByPrefix('singUP-alt', 'altup', 24, false);
+				animation.addByPrefix('singDOWN-alt', 'altdown', 24, false);
+				animation.addByPrefix('singLEFT-alt', 'altleft', 24, false);
+				animation.addByPrefix('singRIGHT-alt', 'altright', 24, false);
+
+				addOffset('idle',0,0);
+				addOffset('singUP',56,177);
+				addOffset("singRIGHT",-69,-73);
+				addOffset("singLEFT",304,-24);
+				addOffset("singDOWN",27,-168);
+				addOffset("singUP-alt",0,16);
+				addOffset("singRIGHT-alt",-11,-30);
+				addOffset("singLEFT-alt",26,-35);
+				addOffset("singDOWN-alt",0,-26);
+
+				playAnim('idle');
 		}
 
 		dance();
