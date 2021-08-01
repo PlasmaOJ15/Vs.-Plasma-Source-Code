@@ -2,6 +2,7 @@ bf
 dad
 gf
 gf_oj
+gfoj
 spooky
 pico
 mom
@@ -19,3 +20,4 @@ spirit
 oj
 sansoj
 shadow
+raiza

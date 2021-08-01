@@ -594,6 +594,16 @@ class PlayState extends MusicBeatState
 					bg.active = false;
 					add(bg);
 			}
+			case 'cartoonz-lol': 
+			{
+					defaultCamZoom = 0.775;
+					curStage = 'bonus';
+					var bg:FlxSprite = new FlxSprite(-600, -300).loadGraphic(Paths.image('plasma/bg'));
+					bg.antialiasing = true;
+					bg.scrollFactor.set(0.9, 0.9);
+					bg.active = false;
+					add(bg);
+			}
 			case 'shadow': 
 			{
 					defaultCamZoom = 0.775;
@@ -892,6 +902,8 @@ class PlayState extends MusicBeatState
 				gfVersion = 'gf-pixel';
 			case 'plasma':
 				gfVersion = 'gf_oj';
+			case 'bonus':
+				gfVersion = 'gfoj';
 		}
 
 		if (curStage == 'limo')
@@ -947,6 +959,9 @@ class PlayState extends MusicBeatState
 				camPos.x += 600;
 				dad.y += 300;
 			case 'shadow':
+				camPos.x += 600;
+				dad.y += 300;
+			case 'raiza':
 				camPos.x += 600;
 				dad.y += 300;
 		}

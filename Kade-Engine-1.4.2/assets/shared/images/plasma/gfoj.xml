@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gfoj.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gfoj0000" x="6" y="6" width="700" height="706" frameX="-2" frameY="-15" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0001" x="710" y="6" width="704" height="706" frameX="0" frameY="-15" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0002" x="1418" y="6" width="704" height="703" frameX="0" frameY="-18" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0003" x="2126" y="6" width="700" height="703" frameX="-2" frameY="-18" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0004" x="2830" y="6" width="700" height="709" frameX="-2" frameY="-12" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0005" x="2830" y="6" width="700" height="709" frameX="-2" frameY="-12" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0006" x="6" y="719" width="700" height="711" frameX="-2" frameY="-10" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0007" x="710" y="719" width="700" height="717" frameX="-2" frameY="-4" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0008" x="710" y="719" width="700" height="717" frameX="-2" frameY="-4" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0009" x="710" y="719" width="700" height="717" frameX="-2" frameY="-4" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0010" x="1414" y="719" width="700" height="721" frameX="-2" frameY="0" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0011" x="1414" y="719" width="700" height="721" frameX="-2" frameY="0" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0012" x="1414" y="719" width="700" height="721" frameX="-2" frameY="0" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0013" x="2118" y="719" width="700" height="720" frameX="-2" frameY="-1" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0014" x="2118" y="719" width="700" height="720" frameX="-2" frameY="-1" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0015" x="2822" y="719" width="700" height="709" frameX="-2" frameY="-12" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0016" x="6" y="1444" width="704" height="709" frameX="0" frameY="-12" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0017" x="714" y="1444" width="704" height="700" frameX="0" frameY="-21" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0018" x="1422" y="1444" width="700" height="700" frameX="-2" frameY="-21" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0019" x="2126" y="1444" width="700" height="705" frameX="-2" frameY="-16" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0020" x="2830" y="1444" width="700" height="705" frameX="-2" frameY="-16" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0021" x="6" y="2157" width="700" height="708" frameX="-2" frameY="-13" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0022" x="710" y="2157" width="700" height="718" frameX="-2" frameY="-3" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0023" x="710" y="2157" width="700" height="718" frameX="-2" frameY="-3" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0024" x="710" y="2157" width="700" height="718" frameX="-2" frameY="-3" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0025" x="1414" y="2157" width="700" height="715" frameX="-2" frameY="-6" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0026" x="1414" y="2157" width="700" height="715" frameX="-2" frameY="-6" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0027" x="1414" y="2157" width="700" height="715" frameX="-2" frameY="-6" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0028" x="2118" y="2157" width="700" height="716" frameX="-2" frameY="-5" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfoj0029" x="2118" y="2157" width="700" height="716" frameX="-2" frameY="-5" frameWidth="704" frameHeight="721"/>
+	<SubTexture name="gfojmad0000" x="2822" y="2157" width="704" height="705"/>
+	<SubTexture name="gfojmad0001" x="6" y="2879" width="704" height="701" frameX="0" frameY="-4" frameWidth="704" frameHeight="705"/>
+	<SubTexture name="gfojmad0002" x="714" y="2879" width="700" height="701" frameX="-2" frameY="-4" frameWidth="704" frameHeight="705"/>
+	<SubTexture name="gfojmad0003" x="1418" y="2879" width="700" height="701" frameX="-2" frameY="-4" frameWidth="704" frameHeight="705"/>
+	<SubTexture name="gfojmad0004" x="1418" y="2879" width="700" height="701" frameX="-2" frameY="-4" frameWidth="704" frameHeight="705"/>
+	<SubTexture name="gfojmad0005" x="1418" y="2879" width="700" height="701" frameX="-2" frameY="-4" frameWidth="704" frameHeight="705"/>
+	<SubTexture name="gfojmad0006" x="1418" y="2879" width="700" height="701" frameX="-2" frameY="-4" frameWidth="704" frameHeight="705"/>
+	<SubTexture name="gfojmad0007" x="1418" y="2879" width="700" height="701" frameX="-2" frameY="-4" frameWidth="704" frameHeight="705"/>
+	<SubTexture name="gfojmad0008" x="1418" y="2879" width="700" height="701" frameX="-2" frameY="-4" frameWidth="704" frameHeight="705"/>
+	<SubTexture name="gfojmad0009" x="1418" y="2879" width="700" height="701" frameX="-2" frameY="-4" frameWidth="704" frameHeight="705"/>
+	<SubTexture name="gfojmad0010" x="1418" y="2879" width="700" height="701" frameX="-2" frameY="-4" frameWidth="704" frameHeight="705"/>
+	<SubTexture name="gfojmad0011" x="1418" y="2879" width="700" height="701" frameX="-2" frameY="-4" frameWidth="704" frameHeight="705"/>
+	<SubTexture name="gfojmad0012" x="1418" y="2879" width="700" height="701" frameX="-2" frameY="-4" frameWidth="704" frameHeight="705"/>
+	<SubTexture name="gfojmad0013" x="1418" y="2879" width="700" height="701" frameX="-2" frameY="-4" frameWidth="704" frameHeight="705"/>
+</TextureAtlas>

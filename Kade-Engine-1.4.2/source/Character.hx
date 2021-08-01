@@ -62,6 +62,22 @@ class Character extends FlxSprite
 
 				playAnim('danceRight');
 				
+			case 'gfoj':
+				// GIRLFRIEND CODE
+				tex = Paths.getSparrowAtlas('plasma/gfoj');
+				frames = tex;
+
+				animation.addByIndices('sad', 'gfojmad', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "", 24, false);
+				animation.addByIndices('danceLeft', 'gfoj', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
+				animation.addByIndices('danceRight', 'gfoj', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
+
+
+				addOffset('sad', 85, 25);
+				addOffset('danceLeft', 85, 40);
+				addOffset('danceRight', 85, 40);
+
+				playAnim('danceRight');
+				
 			case 'gf_oj':
 				// GIRLFRIEND CODE
 				tex = Paths.getSparrowAtlas('plasma/plasmagf');
@@ -570,6 +586,22 @@ class Character extends FlxSprite
 				addOffset("singDOWN-alt",0,-26);
 
 				playAnim('idle');
+				
+			case 'raiza':
+				frames = Paths.getSparrowAtlas('plasma/raiza_assets');
+				animation.addByPrefix('idle', "idle", 24, false);
+				animation.addByPrefix('singUP', "up", 24, false);
+				animation.addByPrefix('singRIGHT', "right", 24, false);
+				animation.addByPrefix('singLEFT', "left", 24, false);
+				animation.addByPrefix('singDOWN', "down", 24, false);
+
+				addOffset('idle',0,0);
+				addOffset('singUP',-11,18);
+				addOffset("singRIGHT",2,-7);
+				addOffset("singLEFT",7,-2);
+				addOffset("singDOWN",24,-58);
+
+				playAnim('idle');
 		}
 
 		dance();
@@ -650,6 +682,17 @@ class Character extends FlxSprite
 					}
 					
 				case 'gf_oj':
+					if (!animation.curAnim.name.startsWith('hair'))
+					{
+						danced = !danced;
+
+						if (danced)
+							playAnim('danceRight');
+						else
+							playAnim('danceLeft');
+					}
+					
+				case 'gfoj':
 					if (!animation.curAnim.name.startsWith('hair'))
 					{
 						danced = !danced;

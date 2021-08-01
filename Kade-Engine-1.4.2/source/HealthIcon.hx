@@ -33,6 +33,7 @@ class HealthIcon extends FlxSprite
 		animation.add('bf-old', [14, 15], 0, false, isPlayer);
 		animation.add('gf', [16], 0, false, isPlayer);
 		animation.add('gf_oj', [16], 0, false, isPlayer);
+		animation.add('gfoj', [24], 0, false, isPlayer);
 		animation.add('gf-christmas', [16], 0, false, isPlayer);
 		animation.add('gf-pixel', [16], 0, false, isPlayer);
 		animation.add('parents-christmas', [17, 18], 0, false, isPlayer);
@@ -41,6 +42,7 @@ class HealthIcon extends FlxSprite
 		animation.add('oj', [24, 25], 0, false, isPlayer);
 		animation.add('sansoj', [26], 0, false, isPlayer);
 		animation.add('shadow', [27, 28], 0, false, isPlayer);
+		animation.add('raiza', [29, 30], 0, false, isPlayer);
 		animation.play(char);
 		switch(char){
 			case 'bf-pixel' | 'senpai' | 'senpai-angry' | 'spirit' | 'gf-pixel':
