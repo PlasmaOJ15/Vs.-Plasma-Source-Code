@@ -602,6 +602,34 @@ class Character extends FlxSprite
 				addOffset("singDOWN",24,-58);
 
 				playAnim('idle');
+				
+			case 'ojraiza':
+				frames = Paths.getSparrowAtlas('plasma/raizaoj');
+				animation.addByPrefix('idle', "idle", 24, false);
+				animation.addByPrefix('singUP', "up", 24, false);
+				animation.addByPrefix('singRIGHT', "right", 24, false);
+				animation.addByPrefix('singLEFT', "left", 24, false);
+				animation.addByPrefix('singDOWN', "down", 24, false);
+				animation.addByPrefix('singUP-alt', 'up2', 24, false);
+				animation.addByPrefix('singDOWN-alt', 'down2', 24, false);
+				animation.addByPrefix('singLEFT-alt', 'left2', 24, false);
+				animation.addByPrefix('singRIGHT-alt', 'right2', 24, false);
+				animation.addByPrefix('down3', "down3", 24, false);
+				animation.addByPrefix('hey', "hey", 24, false);
+
+				addOffset('idle',0,0);
+				addOffset('singUP',62,0);
+				addOffset("singRIGHT",35,0);
+				addOffset("singLEFT",83,0);
+				addOffset("singDOWN",44,-1);
+				addOffset("singUP-alt",4,33);
+				addOffset("singRIGHT-alt",5,9);
+				addOffset("singLEFT-alt",4,8);
+				addOffset("singDOWN-alt",0,-18);
+				addOffset("down3",41,-60);
+				addOffset("hey",-6,21);
+
+				playAnim('idle');
 		}
 
 		dance();

@@ -860,6 +860,25 @@ class PlayState extends MusicBeatState
 								add(waveSpriteFG);
 						*/
 			}
+			case 'plasmadness':
+			{
+			//trace("line 538");
+			defaultCamZoom = 0.75;
+			curStage = 'nevada';
+			
+			var bg:FlxSprite = new FlxSprite(-350, -300).loadGraphic(Paths.image('plasma/red'));
+			bg.antialiasing = true;
+			bg.scrollFactor.set(0.9, 0.9);
+			var stageFront:FlxSprite;
+			add(bg);
+			stageFront = new FlxSprite(-1100, -460).loadGraphic(Paths.image('plasma/island_but_rocks_float'));
+
+			stageFront.setGraphicSize(Std.int(stageFront.width * 1.4));
+			stageFront.antialiasing = true;
+			stageFront.scrollFactor.set(0.9, 0.9);
+			stageFront.active = false;
+			add(stageFront);
+			}
 			default:
 			{
 					defaultCamZoom = 0.9;
@@ -962,6 +981,9 @@ class PlayState extends MusicBeatState
 				camPos.x += 600;
 				dad.y += 300;
 			case 'raiza':
+				camPos.x += 600;
+				dad.y += 300;
+			case 'ojraiza':
 				camPos.x += 600;
 				dad.y += 300;
 		}
@@ -3793,6 +3815,30 @@ class PlayState extends MusicBeatState
 			if (curStep == 32)
 			{
 				dad.playAnim('no', true);
+			}
+		}
+		
+		if (dad.curCharacter == 'ojraiza' && SONG.song.toLowerCase() == 'plasmadness')
+		{
+			if (curStep == 1144)
+			{
+				dad.playAnim('down3', true);
+			}
+		}
+		
+		if (dad.curCharacter == 'ojraiza' && SONG.song.toLowerCase() == 'plasmadness')
+		{
+			if (curStep == 1400)
+			{
+				dad.playAnim('down3', true);
+			}
+		}
+		
+		if (dad.curCharacter == 'ojraiza' && SONG.song.toLowerCase() == 'plasmadness')
+		{
+			if (curStep == 1528)
+			{
+				dad.playAnim('hey', true);
 			}
 		}
 		

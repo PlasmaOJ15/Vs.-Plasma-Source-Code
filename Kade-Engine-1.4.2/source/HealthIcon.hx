@@ -43,6 +43,7 @@ class HealthIcon extends FlxSprite
 		animation.add('sansoj', [26], 0, false, isPlayer);
 		animation.add('shadow', [27, 28], 0, false, isPlayer);
 		animation.add('raiza', [29, 30], 0, false, isPlayer);
+		animation.add('ojraiza', [31, 32], 0, false, isPlayer);
 		animation.play(char);
 		switch(char){
 			case 'bf-pixel' | 'senpai' | 'senpai-angry' | 'spirit' | 'gf-pixel':
