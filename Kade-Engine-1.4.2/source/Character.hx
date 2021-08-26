@@ -630,6 +630,22 @@ class Character extends FlxSprite
 				addOffset("hey",-6,21);
 
 				playAnim('idle');
+				
+			case 'sketch':
+				frames = Paths.getSparrowAtlas('plasma/sketch_assets');
+				animation.addByPrefix('idle', "idle", 24, false);
+				animation.addByPrefix('singUP', "up", 24, false);
+				animation.addByPrefix('singRIGHT', "right", 24, false);
+				animation.addByPrefix('singLEFT', "left", 24, false);
+				animation.addByPrefix('singDOWN', "down", 24, false);
+
+				addOffset('idle',0,0);
+				addOffset('singUP',20,43);
+				addOffset("singRIGHT",83,-2);
+				addOffset("singLEFT",-2,0);
+				addOffset("singDOWN",5,-9);
+
+				playAnim('idle');
 		}
 
 		dance();
